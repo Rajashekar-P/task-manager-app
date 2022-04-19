@@ -1,0 +1,7 @@
+tasks:
+  unit-test:
+    runner: razorci/php:7.4
+    steps:
+    - checkout
+    - commands:
+      - php server.php

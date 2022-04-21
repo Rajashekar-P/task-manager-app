@@ -8,4 +8,5 @@ tasks:
       - sudo curl -sS https://getcomposer.org/installer | php
       - php composer.phar
       - php composer.phar update --no-scripts
+      - php artisan key:generate
       - php artisan test

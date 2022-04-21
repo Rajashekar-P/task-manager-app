@@ -5,3 +5,4 @@ tasks:
     - checkout
     - commands:
       - php --version
+      sh 'composer install'

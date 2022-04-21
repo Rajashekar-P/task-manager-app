@@ -8,6 +8,7 @@ tasks:
       - sudo curl -sS https://getcomposer.org/installer | php
       - php composer.phar
       - php composer.phar update --no-scripts
+      - cp .env.example .env
       - php artisan key:generate
       - php artisan config:cache
       - php artisan serve

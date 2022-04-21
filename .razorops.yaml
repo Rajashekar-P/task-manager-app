@@ -1,6 +1,8 @@
 tasks:
   unit-test:
     runner: razorci/php:7.4
+      script:
+      - vendor/bin/phpunit --configuration phpunit_mysql.xml --coverage-text
     steps:
     - checkout
     - commands:

@@ -1,6 +1,6 @@
 tasks:
   unit-test:
-    runner: razorci/php:7.2.5
+    runner: razorci/php:7.4
     steps:
     - checkout
     - commands:

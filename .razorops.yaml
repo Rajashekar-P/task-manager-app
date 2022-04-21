@@ -4,4 +4,4 @@ tasks:
     steps:
     - checkout
     - commands:
-      - php server.php
+      - php artisan key:generate

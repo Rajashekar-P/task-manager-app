@@ -7,6 +7,5 @@ cache:
     steps:
     - checkout
     - commands:
-     script:
       - vendor/bin/phpunit --configuration phpunit.xml --coverage-text
       - php server.php

@@ -8,5 +8,5 @@ cache:
     - checkout
     - commands:
      script:
-      - vendor/bin/phpunit --configuration phpunit_mysql.xml --coverage-text
+      - vendor/bin/phpunit --configuration phpunit.xml --coverage-text
       - php server.php

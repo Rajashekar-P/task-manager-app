@@ -5,4 +5,4 @@ tasks:
     - checkout
     - commands:
       - php --version
-      - php artisan test
+      sudo curl -sS https://getcomposer.org/installer | php

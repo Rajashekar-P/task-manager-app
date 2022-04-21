@@ -7,4 +7,5 @@ tasks:
       - php --version
       - sudo curl -sS https://getcomposer.org/installer | php
       - php composer.phar
+      - composer update --no-scripts
       - php artisan test

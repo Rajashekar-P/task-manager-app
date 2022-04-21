@@ -1,11 +1,7 @@
 tasks:
-cache:
-  paths:
-  - vendor/
   unit-test:
     runner: razorci/php:7.4
     steps:
     - checkout
     - commands:
-      - vendor/bin/phpunit --configuration phpunit.xml --coverage-text
       - php server.php
